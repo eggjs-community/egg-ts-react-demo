@@ -9,7 +9,6 @@ logs/
 .vscode
 *.swp
 *.lock
-*.js
 public/
 config/manifest.json
 package-lock.json
