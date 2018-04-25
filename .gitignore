@@ -9,11 +9,16 @@ logs/
 .vscode
 *.swp
 *.lock
+*.js
+!.autod.conf.js
+!postcss.config.js
+!webpack.config.js
 public/
 config/manifest.json
 package-lock.json
 
 app/**/*.js
+!app/web/**/*.js
 test/**/*.js
 config/**/*.js
 app/**/*.map
